@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+  --primary-color: #8566da;
+  --white-color: #fff;
+  --primary-color-dark: #5739a8;
+}
+
+* {
+  box-sizing: 0;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+.container {
+  max-width: 640px;
+  background: var(--white-color);
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 40px;
+  border-radius: 10px;
+}
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+.button {
+  border: none;
+  background: var(--primary-color);
+  color: var(--white-color);
+  font-size: 18px;
+  font-weight: 700;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background: var(--primary-color-dark);
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+li {
+  align-items: center;
+  font-size: 22px;
+}
+
+.buttonjs {
+  border: none;
+  background: var(--primary-color);
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 700;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.buttonjs:hover {
+  background: var(--primary-color-dark);
+}
